@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+#tela-toda {
+    max-width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 0.1);
+
+}
+
+header {
+    background-color: #fffcfc;
+    padding: 0;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    /* border-radius: 10px; */
+
+}
+
+section.social-links {
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 0;
+    background-color: #ffffff;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.myIcon {
+    transition: transform 0.3s ease;
+}
+
+.myIcon:hover {
+    transform: scale(1.5);
+}
+
+.primeiro-icone {
+    margin-left: 15%;
+    width: 200%;
+
+}
+
+.logo-whatsapp {
+    width: 170%;
+}
+
+.logo-projetos {
+    width: 190%;
+    position: relative;
+}
+
+.logo-historia {
+    width: 230%;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.social-links img {
+    width: 60%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+@media (min-width: 800px) {
+    #tela-toda {
+        max-width: 800px;
+        /* define a largura máxima da div */
+        margin: 0 auto;
+        /* centraliza a div */
+    }
+}
+
+/* MENU DO ICONE DE PROJETOS */
+
+/* .menu { */
+/* display: none; */
+/* Esconde o menu inicialmente */
+/* width: 200px; */
+/* border: none; */
+/* padding: 10px; */
+/* background-color: #ffffff; */
+/* position: relative; */
+/* Para posicionar o menu */
+/* top: 0px; */
+/* Ajuste conforme necessário */
+/* left: -20px; */
+/* } */
+
+/* .menu ul { */
+/* list-style-type: none; */
+/* padding: 0; */
+/* } */
+
+/* .menu li { */
+/* margin: 15px 0; */
+/* }\ */
+/* .menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: large;
+}
+
+.menu a:hover {
+    color: #007BFF;
+} */
