@@ -88,7 +88,7 @@ section.social-links {
 
 .video {
     width: 100%;
-
+    display: none;
 }
 
 footer {
