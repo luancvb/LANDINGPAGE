@@ -1,11 +1,6 @@
-function menuProjetos() {
-    var menu = document.getElementById("menuCategorias");
-    var icone = document.querySelector(".logo-projetos")
-    if (menu.style.display === "none" || menu.style.display === "") {
-        menu.style.display = "block";
-        icone.style.display = "none"
+function abrirVideo() {
+    const videoElement = document.querySelector('.video'); // Seletor da classe do vídeo
+    videoElement.style.display = 'block'; // Exibe o vídeo
+    videoElement.play(); // Inicia a reprodução automaticamente
+}
 
-    } else {
-        menu.style.display = "none";
-    }
-};

@@ -86,6 +86,11 @@ section.social-links {
     height: auto;
 }
 
+.video {
+    width: 100%;
+
+}
+
 footer {
     background-color: #333;
     color: #fff;
@@ -101,38 +106,3 @@ footer {
         /* centraliza a div */
     }
 }
-
-/* MENU DO ICONE DE PROJETOS */
-
-/* .menu { */
-/* display: none; */
-/* Esconde o menu inicialmente */
-/* width: 200px; */
-/* border: none; */
-/* padding: 10px; */
-/* background-color: #ffffff; */
-/* position: relative; */
-/* Para posicionar o menu */
-/* top: 0px; */
-/* Ajuste conforme necessário */
-/* left: -20px; */
-/* } */
-
-/* .menu ul { */
-/* list-style-type: none; */
-/* padding: 0; */
-/* } */
-
-/* .menu li { */
-/* margin: 15px 0; */
-/* }\ */
-/* .menu a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: large;
-}
-
-.menu a:hover {
-    color: #007BFF;
-} */
